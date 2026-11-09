@@ -1,8 +1,22 @@
-# @tatamearena/brackets-viewer · TatameHub Edition
+# @brunomroque/brackets-viewer-tatamehubedition · TatameHub Edition
 
-[![GitHub Fork](https://img.shields.io/badge/Fork-Drarig29%2Fbrackets--viewer.js-blue.svg)](https://github.com/Drarig29/brackets-viewer.js)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![npm version](https://img.shields.io/npm/v/@tatamearena/brackets-viewer.svg)](https://www.npmjs.com/package/@tatamearena/brackets-viewer)
+<p align="center">
+  <a href="https://github.com/Drarig29/brackets-viewer.js"><img src="https://img.shields.io/badge/Fork-Drarig29%2Fbrackets--viewer.js-blue.svg" alt="Fork" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT" /></a>
+  <a href="https://www.npmjs.com/package/@brunomroque/brackets-viewer-tatamehubedition"><img src="https://img.shields.io/npm/v/@brunomroque/brackets-viewer-tatamehubedition.svg" alt="npm version" /></a>
+  <a href="https://github.com/sponsors/brunomroque"><img src="https://img.shields.io/badge/Sponsor-Buy_Me_A_Coffee-ff813f?logo=buymeacoffee&logoColor=white" alt="Sponsor" /></a>
+  <a href="https://ko-fi.com/brunomroque"><img src="https://img.shields.io/badge/Donate-Ko--fi-FF5E5B?logo=kofi&logoColor=white" alt="Ko-fi" /></a>
+</p>
+
+<p align="center">
+  <a href="#-contexto-por-que-este-fork-existe"><b>🥋 Contexto</b></a> &bull;
+  <a href="#-exemplo-layout-two-sided-side-by-side"><b>📸 Exemplo</b></a> &bull;
+  <a href="#-o-que-há-de-novo-na-tatamehub-edition"><b>✨ Novidades</b></a> &bull;
+  <a href="#-como-usar"><b>🚀 Como Usar</b></a> &bull;
+  <a href="#%EF%B8%8F-demos-dispon%C3%ADveis"><b>🖥️ Demos</b></a> &bull;
+  <a href="#-apoie-o-projeto--sponsoring--donations"><b>💖 Apoiar</b></a> &bull;
+  <a href="#-créditos-e-reconhecimento"><b>🤝 Créditos</b></a>
+</p>
 
 > **Fork estendido de [brackets-viewer.js](https://github.com/Drarig29/brackets-viewer.js)** (criado originalmente por [Corentin Girard / Drarig29](https://github.com/Drarig29)), desenvolvido sob medida para a plataforma **[TatameHub](https://github.com/brunomroque/brackets-viewer-tatamehubedition)** e competições de artes marciais (Jiu-Jitsu, Judô, Karatê, Taekwondo, etc.).
 
@@ -53,14 +67,14 @@ Abaixo, um exemplo real gerado com a nova opção `layout: 'two-sided'`, mostran
 ### Instalação
 
 ```bash
-npm install @tatamearena/brackets-viewer
+npm install @brunomroque/brackets-viewer-tatamehubedition
 ```
 
 Ou incluindo via CDN:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tatamearena/brackets-viewer@1.10.0/dist/brackets-viewer.min.css" />
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@tatamearena/brackets-viewer@1.10.0/dist/brackets-viewer.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@brunomroque/brackets-viewer-tatamehubedition@1.10.0/dist/brackets-viewer.min.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@brunomroque/brackets-viewer-tatamehubedition@1.10.0/dist/brackets-viewer.min.js"></script>
 ```
 
 ### 1. Renderizando Chave Two-Sided
@@ -85,7 +99,7 @@ await window.bracketsViewer.render({
 ### 2. Calculando Páginas de Impressão A4
 
 ```js
-import { planEliminationPrintPages } from '@tatamearena/brackets-viewer';
+import { planEliminationPrintPages } from '@brunomroque/brackets-viewer-tatamehubedition';
 
 // Exemplo: torneio com 32 atletas
 const pages = planEliminationPrintPages(16, 32);
@@ -112,6 +126,34 @@ Para testar localmente:
 
 ---
 
+## 💖 Apoie o Projeto / Sponsoring & Donations
+
+Este projeto e suas adições (layout *two-sided* para tatame e paginação A4) são mantidos de forma independente sob a licença de código aberto MIT. Se esta ferramenta acelerou o seu evento, campeonato ou projeto comercial, **considere apoiar a evolução contínua da ferramenta!**
+
+### 🇧🇷 Brasil & Pix
+Você pode enviar qualquer valor diretamente via **Pix** utilizando a chave aleatória abaixo:
+
+```text
+6273ae2e-7345-405b-873c-6749946c8488
+```
+
+### 🌍 Apoio Internacional (Global)
+<p>
+  <a href="https://buymeacoffee.com/brunomroque">
+    <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-brunomroque-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" />
+  </a>
+  &nbsp;
+  <a href="https://ko-fi.com/brunomroque">
+    <img src="https://img.shields.io/badge/Ko--fi-brunomroque-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/sponsors/brunomroque">
+    <img src="https://img.shields.io/badge/GitHub_Sponsors-brunomroque-EA4AAA?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Sponsors" />
+  </a>
+</p>
+
+---
+
 ## 🤝 Créditos e Reconhecimento
 
 Este projeto é um fork construído a partir do excelente trabalho de:
@@ -120,3 +162,7 @@ Este projeto é um fork construído a partir do excelente trabalho de:
 - **[Nantarena](https://nantarena.net/)** — Projeto para o qual a biblioteca original foi concebida.
 
 As adições do **TatameHub** (layout `two-sided`, correções de byes e planejamento de impressão A4) foram desenvolvidas para suprir as necessidades de eventos esportivos e de artes marciais, mantendo a licença **MIT** e total respeito à arquitetura original. Consulte o arquivo [NOTICE](NOTICE) e [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+Desenvolvido com carinho por [Bruno Roque](https://github.com/brunomroque) & Colaboradores do TatameHub.

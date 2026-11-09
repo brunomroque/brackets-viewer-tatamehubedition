@@ -1,5 +1,5 @@
 {
-    "name": "@brunomroque/brackets-viewer",
+    "name": "@brunomroque/brackets-viewer-tatamehubedition",
     "version": "1.10.0",
     "description": "TatameArena fork of brackets-viewer.js — two-sided layout and A4 print pagination for tournament brackets",
     "main": "./dist/index.js",
@@ -49,6 +49,20 @@
     "publishConfig": {
         "access": "public"
     },
+    "funding": [
+        {
+            "type": "individual",
+            "url": "https://buymeacoffee.com/brunomroque"
+        },
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/brunomroque"
+        },
+        {
+            "type": "ko-fi",
+            "url": "https://ko-fi.com/brunomroque"
+        }
+    ],
     "homepage": "https://github.com/brunomroque/brackets-viewer-tatamehubedition#readme",
     "dependencies": {
         "brackets-manager": "^1.11.0",
