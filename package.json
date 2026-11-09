@@ -1,5 +1,5 @@
 {
-    "name": "@tatamearena/brackets-viewer",
+    "name": "@brunomroque/brackets-viewer",
     "version": "1.10.0",
     "description": "TatameArena fork of brackets-viewer.js — two-sided layout and A4 print pagination for tournament brackets",
     "main": "./dist/index.js",
@@ -46,6 +46,9 @@
         "defaults",
         "not IE 11"
     ],
+    "publishConfig": {
+        "access": "public"
+    },
     "homepage": "https://github.com/brunomroque/brackets-viewer-tatamehubedition#readme",
     "dependencies": {
         "brackets-manager": "^1.11.0",
