@@ -22,7 +22,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/brunomroque/brackets-viewer.git"
+        "url": "git+https://github.com/brunomroque/brackets-viewer-tatamehubedition.git"
     },
     "keywords": [
         "javascript",
@@ -40,13 +40,13 @@
     ],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/brunomroque/brackets-viewer/issues"
+        "url": "https://github.com/brunomroque/brackets-viewer-tatamehubedition/issues"
     },
     "browserslist": [
         "defaults",
         "not IE 11"
     ],
-    "homepage": "https://github.com/brunomroque/brackets-viewer#readme",
+    "homepage": "https://github.com/brunomroque/brackets-viewer-tatamehubedition#readme",
     "dependencies": {
         "brackets-manager": "^1.11.0",
         "brackets-memory-db": "^1.0.6",
